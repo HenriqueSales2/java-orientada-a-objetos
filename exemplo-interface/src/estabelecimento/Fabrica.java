@@ -2,10 +2,9 @@ package estabelecimento;
 
 import equipamentos.copiadora.Copiadora;
 import equipamentos.digitalizadora.Digitalizadora;
-import equipamentos.impressora.Deskjet;
+import equipamentos.digitalizadora.Scanner;
 import equipamentos.impressora.Impressora;
 import equipamentos.multifuncional.EquipamentoMultiFuncional;
-import equipamentos.digitalizadora.Scanner;
 public class Fabrica {
     public static void main(String[] args) {
         EquipamentoMultiFuncional em = new EquipamentoMultiFuncional();
@@ -19,10 +18,5 @@ public class Fabrica {
         impressora.imprimir();
         digitalizadora.digitalizar();
         copiadora.copiar();
-
-        deskjet.imprimir();
-
-
-
     }
 }
